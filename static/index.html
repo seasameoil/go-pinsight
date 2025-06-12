@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bookmark Manager</h1>
+    <form id="bookmarkForm">
+        <input type="text" id="url" placeholder="URL" required>
+        <input type="text" id="note" placeholder="Note" required>
+        <input type="text" id="tags" placeholder="Tags (comma separated)">
+        <button type="submit">Add Bookmark</button>
+    </form>
+    <h2>Bookmarks</h2>
+    <ul id="bookmarkList"></ul>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
